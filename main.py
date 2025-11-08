@@ -11,7 +11,7 @@ def hello():
     return 'I am good, how about you?'
 
 @app.route('/sentry-test')
-def hello():
+def sentry_test():
     1 / 0
     return 'sentry is awesome!'
 
